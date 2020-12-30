@@ -1,0 +1,130 @@
+.wrapper {
+    margin: 0 50px;
+    padding: 0;
+    clear: both;
+}
+
+.logo{
+    width: 35%;
+    background-color: transparent;
+}
+
+.rightBrain{
+    position: absolute;
+    width: 10%;
+    top: 13%;
+    left: 50%;
+    z-index: 0;
+}
+
+.rightBrain:hover{
+    width: 11%;
+    top: 10%
+}
+
+.leftBrain{
+    position: absolute;
+    width: 11%;
+    top: 13%;
+    left: 41.5%;
+    z-index: 0;
+}
+
+.leftBrain:hover{
+    width: 12%;
+    top: 11%;
+    left: 40.5%;
+}
+
+.hair{
+    position: absolute;
+    width: 18%;
+    left: 42%;
+    top: 30%;
+    transform: rotate(2deg);
+    z-index: 1;
+}
+
+.hair:hover{
+    width: 20%;
+    left: 41%;
+    top: 29%;
+}
+
+.rightEye{
+    position: absolute;
+    width: 7%;
+    left: 54%;
+    top: 36%;
+    z-index: 2;
+}
+
+.rightEye:hover{
+    width:8%;
+    left:53%;
+    top:35%;
+}
+
+.leftEye{
+    position: absolute;
+    width: 7%;
+    left: 41%;
+    top: 36%;
+    z-index: 2;
+}
+
+.leftEye:hover{
+    width:8%;
+    top:35%;
+}
+
+.rightEar{
+    position: absolute;
+    width: 5%;
+    left: 62%;
+    top: 47%;
+    z-index: 2;
+}
+
+.rightEar:hover{
+    width: 6%;
+    left: 62%;
+}
+
+.leftEar{
+    position: absolute;
+    width: 5%;
+    left: 35.5%;
+    top: 47%;
+    z-index: 3;
+}
+
+.leftEar:hover{
+    width: 6%;
+    left: 34.5%;
+}
+
+.nose{
+    position: absolute;
+    width: 8%;
+    left: 47%;
+    top: 54%;
+    z-index: 2;
+}
+
+.nose:hover{
+    width: 9%;
+    left: 46.5%;
+}
+
+.mouth{
+    position: absolute;
+    width: 15%;
+    left: 44%;
+    top: 78%;
+}
+
+.mouth:hover{
+    width: 17%;
+    left: 43%;
+}
